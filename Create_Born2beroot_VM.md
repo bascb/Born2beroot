@@ -33,3 +33,10 @@
 7. Choose the folder where you saved your ISO file
 8. Check the Live CD/DVD option
 9. Click on OK button
+
+# Configure network adapter
+
+1. On VirtualBox Manager select Debian machine
+2. Click on Settings (Orange button)
+3. Select Network
+4. On Adapter 1, Select  Bridged Adapter on Attached_to
