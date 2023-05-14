@@ -16,5 +16,11 @@ $ scp -P 4242 path/to/your/script/monitoring.sh <vm login>@<vm IP>:path/to/desir
 
 # Configure script to run every 10 minutes
 
-1. Copy monitoring.sh to /usr/local/bin/
-2. Give execution permission to script: ```bash $ chmod 777 /usr/local/bin/monitoring.sh```
+1. Copy monitoring.sh to ```/usr/local/bin/```
+2. Give execution permission to script: ```$ chmod 777 /usr/local/bin/monitoring.sh```
+3. Run ```$ sudo visudo```
+4. Add ```<your_login> ALL=(ALL) NOPASSWD: /usr/local/bin/monitoring.sh``` in the "Allow members of group sudo to execute any command"
+5. Add ```<your_login> ALL=(ALL:ALL) ALL``` under ```ROOT ALL=(ALL:ALL) ALL```
+6. Reboot your VM
+7. Run ```sudo crontab -u root -e``` to open the crontab and add the rule
+8. Add ```*/10 * * * * /usr/local/bin/monitoring.sh``` to the end of crontab
