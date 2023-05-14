@@ -36,3 +36,7 @@ $ sudo systemctl poweroff
 6. [Install and configure OpenSSH](Install_and_configure_ssh.md)
 
 7. [Install and configure UFW](Install_and_configure_UFW.md)
+
+## Create and configure monitoring script
+
+8. [Create and configure monitoring.sh](Create_and_configure_monitoring_script.md)
