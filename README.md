@@ -40,3 +40,7 @@ $ sudo systemctl poweroff
 ## Create and configure monitoring script
 
 8. [Create and configure monitoring.sh](Create_and_configure_monitoring_script.md)
+
+## Set up Very Secure FTP Daemon (vsftpd)
+
+9. [Install and configure vsftp server](Install_and_configure_vsftpd.md)
