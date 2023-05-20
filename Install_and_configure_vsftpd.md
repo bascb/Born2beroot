@@ -80,7 +80,7 @@ $ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/priv
 	```rsa_cert_file=/etc/ssl/private/vsftpd.pem```
 	```rsa_private_key_file=/etc/ssl/private/vsftpd.pem```
 	```ssl_enable=YES```
-
+   
 # Restart the service
 
 Run this commands:

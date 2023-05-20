@@ -41,6 +41,12 @@ $ sudo systemctl poweroff
 
 8. [Create and configure monitoring.sh](Create_and_configure_monitoring_script.md)
 
+## Set up a functional WordPress website
+
+9. [Install PHP](Install_PHP.md)
+
+10. [Install and configure lighttpd](Install_and_configure_lighttpd.md)
+
 ## Set up Very Secure FTP Daemon (vsftpd)
 
-9. [Install and configure vsftp server](Install_and_configure_vsftpd.md)
+11. [Install and configure vsftp server](Install_and_configure_vsftpd.md)
