@@ -39,6 +39,12 @@ Run the command to add the ftp user to the vsftpd.userlist file. Local users spe
 ```bash
 $ echo "ftpuser" | sudo tee -a /etc/vsftpd.userlist
 ```
+Add your user to vsftpd.userlist
+
+```bash
+$ echo "your_username" | sudo tee -a /etc/vsftpd.userlist
+```
+
 3. Create ftp user directory
 Next, create an FTP directory for the FTP user and assign the appropriate directory permissions and ownership.
 
