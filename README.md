@@ -47,6 +47,8 @@ $ sudo systemctl poweroff
 
 10. [Install and configure lighttpd](Install_and_configure_lighttpd.md)
 
+11. [Install and configure MariaDB](Install_and_configure_MariaDB.md)
+
 ## Set up Very Secure FTP Daemon (vsftpd)
 
-11. [Install and configure vsftp server](Install_and_configure_vsftpd.md)
+12. [Install and configure vsftp server](Install_and_configure_vsftpd.md)
