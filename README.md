@@ -49,6 +49,8 @@ $ sudo systemctl poweroff
 
 11. [Install and configure MariaDB](Install_and_configure_MariaDB.md)
 
+12. [Install and configure WordPress](Install_and_configure_WordPress.md)
+
 ## Set up Very Secure FTP Daemon (vsftpd)
 
 12. [Install and configure vsftp server](Install_and_configure_vsftpd.md)
