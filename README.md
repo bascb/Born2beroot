@@ -53,4 +53,18 @@ $ sudo systemctl poweroff
 
 ## Set up Very Secure FTP Daemon (vsftpd)
 
-12. [Install and configure vsftp server](Install_and_configure_vsftpd.md)
+13. [Install and configure vsftp server](Install_and_configure_vsftpd.md)
+
+## Get VM virtual disk signature
+
+14. Go to ```sgoinfre/goinfre/Perso/<your_42_username>/<your_VM_name>``` and run the following command to generate your vdi signature:
+
+```bash
+$ shasum Born2beroot.vdi
+```
+
+15. Copy the generated number
+
+16. Create a file with name: signature.txt in your project repository and past the generated number to it
+
+17. Do no use your machine after complete the project. If you need to run the machine to study, practice or on evaluation, clone it!
